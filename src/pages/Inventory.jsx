@@ -329,7 +329,7 @@ const Inventory = ({ user, inventoryData, setInventoryData }) => {
                                 <label className="text-sm font-medium text-slate-600">Tecnología</label>
                                 <select name="tecnologia" value={formData.tecnologia} onChange={handleChange} className="border border-slate-200 rounded-xl px-4 py-3 outline-none">
                                     <option>Laser</option>
-                                    <option>Inyección</option>
+                                    <option>Inyección de Tinta</option>
                                     <option>Matricial</option>
                                 </select>
                             </div>
@@ -340,8 +340,8 @@ const Inventory = ({ user, inventoryData, setInventoryData }) => {
                                 <select name="marca" value={formData.marca} onChange={handleChange} className="border border-slate-200 rounded-xl px-4 py-3 outline-none">
                                     <option>HP</option>
                                     <option>Epson</option>
-                                    <option>Canon</option>
-                                    <option>Brother</option>
+                                    <option>Fujitsu</option>
+                                    <option>Kodak</option>
                                     <option>Zebra</option>
                                 </select>
                             </div>
@@ -371,6 +371,7 @@ const Inventory = ({ user, inventoryData, setInventoryData }) => {
                                     <option>Backup</option>
                                     <option>Reemplazo</option>
                                     <option>Retiro</option>
+                                    <option>Custodia</option>
                                     <option>Contingencia</option>
                                 </select>
                             </div>
@@ -385,8 +386,8 @@ const Inventory = ({ user, inventoryData, setInventoryData }) => {
                             <div className="flex flex-col gap-1">
                                 <label className="text-xs font-medium text-slate-600">Servicio</label>
                                 <select name="servicio" value={formData.servicio} onChange={handleChange} className="border border-slate-200 rounded-xl px-2 py-3 text-sm outline-none">
-                                    <option>Alquiler</option>
-                                    <option>Propio</option>
+                                    <option>Outsourcing</option>
+                                    <option>Hpfs</option>
                                 </select>
                             </div>
                         </div>
