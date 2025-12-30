@@ -1,0 +1,28 @@
+[
+    {
+        "serie": "PRUEBA001",
+        "n_item": "001",
+        "operador": "",
+        "unidad_negocio": "R Y R PATOLOGOS S.A.C.",
+        "zona": "",
+        "provincia": "Lima",
+        "distrito": "Miraflores",
+        "direccion": "Av. Principal 123",
+        "sede": "Sede Central",
+        "piso": "3",
+        "area": "",
+        "subarea": "",
+        "categoria": "Impresora",
+        "tecnologia": "Laser",
+        "marca": "HP",
+        "color": "Negro",
+        "modelo": "M428fdw",
+        "uso": "Asignado",
+        "criticidad": "Media",
+        "ip": "192.168.1.50",
+        "print_server": "PRINTSVR01",
+        "servicio": "Activo",
+        "operador_registro": "admin",
+        "fecha_modificacion": "29/12/2025, 17:00:00"
+    }
+]
